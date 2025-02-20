@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root {
+    --light-white: #e0e0e0;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--light-white);
+    user-select: none;
+}
+
+
+.exercises {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.exercises h2 {
+    font-size: 2.5rem;
+    margin: 6rem 3rem 4.5rem 3rem;
+}
+
+.exercises a {
+    font-size: 2.1rem;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.exercises a:hover {
+    color: #201E1C;
+    transition-duration: 0.5s;
+}
+
+h1 {
+    font-size: 3.6rem;
+    margin:  4rem 0 2rem 0;
+}
+
+.button {
+    padding: 15px 25px;
+    border: none;
+    margin: 8px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+.button:hover {
+    background-color: #8b6bff;
+    color: #fff;
+}
+
+.abt-me {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.abt-me-p {
+    display: flex;
+    font-size: 2.4rem;
+    max-width: 600px;
+    width: 50rem;
+    text-align: center;
+    align-items: center;
+}
+
+.yo {
+    max-width: 300px;
+    margin: 50px 0 0 0;
+    border-radius: 15px 15px 0 0;
+}
+
+figcaption {
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    padding: 5px;
+    margin-top: -5px;
+    font-size: 1.4rem;
+}
+
+.back-to-page {
+    margin: 50px;
+}
