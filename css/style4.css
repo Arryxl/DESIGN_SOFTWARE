@@ -1,0 +1,107 @@
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root {
+    --light-white: #e0e0e0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--light-white);
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 3.6rem;
+    margin-bottom: 2rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    background: #F7931A;
+    padding: 1.5rem;
+    border-radius: 10px;
+    gap: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: white;
+    padding: 1rem 1.5rem;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #000000;
+}
+
+section {
+    width: 40%;
+    background: white;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h2 {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.top {
+    font-size: 1.6rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.top:hover {
+    color: #8b6bff;
+}
+
+.button {
+    padding: 1.5rem 2.5rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.8rem;
+    font-weight: 500;
+    transition: 0.4s;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.button:hover {
+    background-color: #8b6bff;
+    color: #fff;
+}
+
+.src-links {
+    margin-top: 2rem;
+}
