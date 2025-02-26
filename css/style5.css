@@ -18,12 +18,12 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: var(--light-white);
-    padding: 2rem;
+    user-select: none;
 }
 
 h1 {
     font-size: 3.6rem;
-    margin-bottom: 2rem;
+    margin: 2rem;
 }
 
 ul {
@@ -87,4 +87,127 @@ a:hover {
 
 .src-links {
     margin-top: 2rem;
+}
+
+.section_9 {
+    text-align: center;
+}
+
+.form {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 4rem;
+    padding: 4rem;
+    border-radius: 15px;
+}
+
+
+label {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+input {
+    margin: 10px;
+    width: 80%;
+    font-size: 1.6rem;
+}
+
+textarea {
+    margin: 10px;
+    font-size: 1.6rem;
+}
+
+.form button {
+    font-size: 1.6rem;
+    padding: 0.7rem 2.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+}
+
+.main-box li{
+    list-style: none;
+    min-width: 25rem;
+    font-size: 1.6rem;
+}
+
+.dpt-box {
+    background-color: #fff;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.dpt-box li {
+    margin: 0 2rem;
+}
+
+.dpt-box hr {
+    margin-bottom: 1.3rem;
+}
+
+.video{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0;
+}
+
+.video video{
+    max-width: 80rem;
+    border-radius: 15px;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+.p-iframe {
+    margin: 5rem 0;
+}
+
+.iframe-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #201E1C;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+
+.iframe-box {
+    text-align: center;
+    max-width: 60rem;
+    margin: 4rem;
+}
+
+.iframe-box h2 {
+    color: whitesmoke;
+}
+
+.iframe-footer {
+    margin: 4rem 0 0 0;
+    padding: 5rem 0;
+    background-color: #201E1C;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.iframe-footer p {
+    color: whitesmoke;
 }
