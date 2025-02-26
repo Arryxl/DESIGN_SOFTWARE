@@ -36,7 +36,7 @@ nav {
 }
 
 .logo {
-    margin-left: auto; /* Esto empuja el logo al extremo derecho */
+    margin-left: auto; 
     display: flex;
     align-items: center;
     margin-right: 7rem;
