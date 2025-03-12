@@ -1,0 +1,47 @@
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.main {
+    width: 70%;
+    background: #fff;
+    float: left;
+}
+
+aside {
+    width: 30%;
+    background: #2179b0;
+    padding: 20px;
+    color: #fff;
+    float: left;
+}
+
+footer {
+    width: 70%;
+    background: #154d70;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    clear: both;
+}
+
+@media screen and (max-width:800px) {
+    body {
+        background: #000;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+}
